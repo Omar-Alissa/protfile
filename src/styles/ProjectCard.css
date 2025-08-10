@@ -1,0 +1,123 @@
+/* Project Card Styles */
+
+.project-card {
+  background-color: var(--card-bg);
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
+}
+
+.project-image {
+  width: 100%;
+  height: 12rem;
+  object-fit: cover;
+  object-position: center;
+}
+
+.project-content {
+  padding: 1.75rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.75rem;
+  color: var(--text-color);
+}
+
+.project-description {
+  color: var(--color-gray-600);
+  margin-bottom: 1.25rem;
+  line-height: 1.6;
+}
+
+.dark-mode .project-description {
+  color: var(--color-gray-400);
+}
+
+.tech-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.tech-tag {
+  padding: 0.25rem 0.75rem;
+  background-color: var(--color-primary-light);
+  color: white;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+}
+
+.dark-mode .tech-tag {
+  background-color: var(--color-primary-dark);
+}
+
+.project-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 0.5rem;
+  margin-bottom: 1.25rem;
+  font-size: 0.875rem;
+  color: var(--color-gray-500);
+}
+
+.dark-mode .project-stats {
+  color: var(--color-gray-400);
+}
+
+.stat-item {
+  display: flex;
+  align-items: center;
+}
+
+.stat-item svg {
+  margin-right: 0.25rem;
+}
+
+.project-links {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: auto;
+  padding-top: 1.25rem;
+}
+
+.project-link {
+  display: flex;
+  align-items: center;
+  color: var(--color-gray-700);
+  transition: color 0.2s, transform 0.2s;
+  font-weight: 500;
+}
+
+.dark-mode .project-link {
+  color: var(--color-gray-300);
+}
+
+.project-link:hover {
+  color: var(--accent-color);
+  transform: translateY(-2px);
+}
+
+.project-link svg {
+  margin-right: 0.5rem;
+}
+
+.github-project-card {
+  margin-bottom: 2.5rem;
+}
