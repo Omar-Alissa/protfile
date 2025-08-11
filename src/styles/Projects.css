@@ -136,3 +136,21 @@
   background-color: var(--accent-hover);
   color: white;
 }
+
+/* Mobilresponsivitet */
+@media (max-width: 640px) {
+  .projects-section {
+    padding: 2rem 0;
+  }
+  .projects-grid {
+    gap: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+  .project-card {
+    padding: 1rem;
+  }
+  .github-link {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+  }
+}

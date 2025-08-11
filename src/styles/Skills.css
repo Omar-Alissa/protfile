@@ -157,3 +157,22 @@
   background-color: var(--accent-color);
   border-radius: 2px;
 }
+
+/* Mobilresponsivitet */
+@media (max-width: 640px) {
+  .skills-section {
+    padding: 2rem 0;
+  }
+  .skills-title {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+  .skills-content {
+    gap: 1rem;
+    padding: 0.5rem;
+  }
+  .skill-card {
+    padding: 1rem;
+    font-size: 0.95rem;
+  }
+}

@@ -107,3 +107,28 @@
 .download-cv-button:hover {
   background-color: var(--accent-hover);
 }
+
+/* Mobilresponsivitet */
+@media (max-width: 640px) {
+  .about-section {
+    padding: 2rem 0;
+  }
+  .about-grid {
+    gap: 1.5rem;
+  }
+  .profile-image-wrapper {
+    width: 8rem;
+    height: 8rem;
+  }
+  .about-content-title {
+    font-size: 1.1rem;
+  }
+  .about-text {
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+  }
+  .download-cv-button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+  }
+}

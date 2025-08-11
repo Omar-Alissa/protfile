@@ -151,3 +151,18 @@
     display: none !important;
   }
 }
+
+@media (max-width: 640px) {
+  .navbar {
+    padding: 0.5rem 0;
+  }
+  .navbar-container {
+    padding: 0.5rem 0.5rem;
+  }
+  .navbar-logo {
+    font-size: 1.1rem;
+  }
+  .navbar-social {
+    gap: 0.5rem;
+  }
+}
