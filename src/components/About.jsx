@@ -32,13 +32,14 @@ const About = () => {
               vardagliga problem. När jag inte kodar, gillar jag att promenera i naturen och läsa böcker.
             </p>
             <a 
-              href={process.env.NODE_ENV === 'production' ? '/protfile/Omar_Alissa_CV_LIA1.pdf' : '/Omar_Alissa_CV_LIA1.pdf'} 
-              download 
-              className="download-cv-button"
-              style={{ display: 'inline-block', marginTop: '1.5rem', fontWeight: 600, fontSize: '1.1rem', borderRadius: '999px', padding: '0.75rem 2rem', background: 'var(--accent-color)', color: 'white', boxShadow: '0 2px 8px rgba(0,0,0,0.08)', textDecoration: 'none' }}
-            >
-              Ladda ner CV
-            </a>
+                href="/protfile/Omar_Alissa_CV_LIA1.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="download-cv-button"
+                style={{ display: 'inline-block', marginTop: '1.5rem', fontWeight: 600, fontSize: '1.1rem', borderRadius: '999px', padding: '0.75rem 2rem', background: 'var(--accent-color)', color: 'white', boxShadow: '0 2px 8px rgba(0,0,0,0.08)', textDecoration: 'none' }}
+              >
+                Ladda ner CV
+              </a>
           </div>
         </div>
         
